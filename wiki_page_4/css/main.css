@@ -1,0 +1,23 @@
+section h3 {
+    font-size: medium;
+    margin: 23px;
+    text-align: left;
+
+}
+
+section.card img{
+    width: 240px;
+    float: right;
+    margin: 15px;
+}
+body{
+    text-align: left;
+}
+
+li{
+list-style-position: inside;
+}
+
+section h3{
+    font-size: larger;
+}
