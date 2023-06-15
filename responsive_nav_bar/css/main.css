@@ -17,7 +17,7 @@ img, svg {
 }
 
 header {
-    background-color: #ffeed8;
+    background-color: lavender;
 }
 header nav {
     display: flex;
@@ -29,14 +29,14 @@ header nav {
 header nav #logo {
     display: flex;
     align-items: center;
-    color: #0f9c89;
+    color: lightcoral;
     text-decoration: none;
     font-size: 1.5rem;
     transition: all .5s;
 }
 header nav #logo svg {
     width: 1.825rem;
-    fill: #0f9c89;
+    fill:lightcoral;
     margin-right: 0.5rem;
     order: 1;
     transition: all .5s;
@@ -45,11 +45,11 @@ header nav #logo p {
     order: 2;
 }
 header nav #logo:hover {
-    color: #cd8c00;
+    color: purple;
     text-decoration: underline;
 }
 header nav #logo:hover svg {
-    fill: #cd8c00;
+    fill: purple;
 }
 
 header #mainnav {
@@ -70,7 +70,7 @@ header #mainnav li a {
     transition: all .5s;
 }
 header #mainnav li a:hover {
-    color: #0f9c89;
+    color: lightcoral;
     text-decoration: underline;
 }
 
@@ -85,7 +85,7 @@ header #mainnav .drop {
     right: 0;
     text-align: right;
     list-style-type: none;
-    background-color: #ffeed8;
+    background-color: lavender;
     padding: .5rem 1.25rem;
     visibility: hidden;
     opacity: 0;
