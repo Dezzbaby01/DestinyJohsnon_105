@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Creepster&family=Lobster&family=Roboto:wght@400;700&family=Signika+Negative&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, #logo p {
+    font-family: 'Creepster';
+}
+p, li, a, blockquote {
+    font-family: 'Poppins', sans-serif;
+}
+img, svg {
+    width: 2rem;
+}
+
+header {
+    background-color: indigo;
+}
+header nav {
+    display: flex;
+    width: 85vw;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header nav #logo {
+    display: flex;
+    align-items: center;
+    color:green;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: all .5s;
+}
+header nav #logo svg {
+    width: 1.825rem;
+    fill:lightcoral;
+    margin-right: 0.5rem;
+    order: 1;
+    transition: all .5s;
+}
+header nav #logo p {
+    order: 2;
+}
+header nav #logo:hover {
+    color: lawngreen;
+    text-decoration: underline;
+}
+header nav #logo:hover svg {
+    fill:green;
+}
+
+header #mainnav {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+header #mainnav li {
+    margin-right: 1.25rem;
+    padding: .75rem 0;
+}
+header #mainnav li:last-of-type {
+    margin-right: 0;
+}
+header #mainnav li a {
+    color: black;
+    text-decoration: none;
+    transition: all .5s;
+}
+header #mainnav li a:hover {
+    color: lawngreen;
+    text-decoration: underline;
+}
+
+header #mainnav .drop {
+    position: relative;
+}
+.drop ul {
+    position: absolute;
+    z-index: -1;
+    width: 300px;
+    top: 0;
+    right: 0;
+    text-align: right;
+    list-style-type: none;
+    background-color: green;
+    padding: .5rem 1.25rem;
+    visibility: hidden;
+    opacity: 0;
+    transition:
+    top .5s,
+    visibility .5s,
+    opacity .5s;
+}
+.drop:hover ul {
+    top: 48px;
+    opacity: 1;
+    visibility: visible;
+    z-index: 2;
+}
+#mainnav .drop ul li {
+    margin: 0 0 .5rem 0;
+    padding: 0;
+}
+.drop ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    nav, header #mainnav {
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header #mainnav li {
+        margin-right: 0;
+    }
+    .drop ul {
+        width: 100vw;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    .drop:hover ul {
+        top: 2.5rem;
+    }
+    #mainnav .drop + li {
+        transition: margin-top .5s;
+    }
+    #mainnav .drop:hover + li {
+        margin-top: 96px;
+    }
+}
+ section.card img {
+    width: 100px;
+    margin: auto;
+    padding-left: 15px;
+    
+ }
+section img{
+    width: 500px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+section div p{
+    padding-top: 15px;
+}
+section.card div img {
+    width: 400px;
+}
