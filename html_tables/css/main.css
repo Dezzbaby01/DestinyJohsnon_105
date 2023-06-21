@@ -1,0 +1,16 @@
+header{
+   border: 5px solid black;
+}
+#top{
+    background-color: green;
+}
+#domenic{
+    border: 1px solid black;
+    background-color: whitesmoke;
+}#sally{
+    background-color: lightgrey;
+    color: green;
+}
+#nick{
+    background-color: whitesmoke;
+}

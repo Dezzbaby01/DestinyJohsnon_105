@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+
+
+#hero_1{
+    background-image: url("../images/planet\ anime.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    margin-bottom: 1000px;
+}
+
+#hero_1 h1{
+    position: absolute;
+    left: 150px;
+    font-family:'Lobster', cursive;
+    font-size: 40px;
+}
+
+#hero_2{
+    background-image: url("../images/anime\ girl.jpeg");
+    background-size: cover;
+    height: 80vh;
+    margin-bottom: 1000px;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#hero_2 h2,h3{
+    font-family:'Lobster', cursive;
+    font-size: 25px;
+}
+
+#hero_3{
+    background-image: url("../images/anime\ background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    margin-bottom: 1000px;
+}
+#hero_3 h2{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    padding-top: 60px;
+}
+
+#hero_3 h3{
+    font-family:'Lobster', cursive;
+    font-size: 30px;
+    padding-bottom: 60px
+}
