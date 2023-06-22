@@ -76,6 +76,7 @@ Carousel-items
 .carousel-item img {
     object-fit: cover;
     height: 100%;
+    
 }
 
 
