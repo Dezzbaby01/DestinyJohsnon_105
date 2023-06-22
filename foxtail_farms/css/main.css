@@ -1,0 +1,40 @@
+h1{
+   background-color: #e1a177;
+   font-family: 'Lobster', cursive;
+   text-align: center;
+}
+
+nav{
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#gallery_6{
+    columns: 3 auto;
+  }
+  #gallery_6 img{
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+
+.carousel-item {
+    height: 500px;
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    
+}
