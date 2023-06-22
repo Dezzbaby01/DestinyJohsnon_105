@@ -66,6 +66,21 @@ footer a:hover {
     "footer_area footer_area footer_area";
 }
 
+
+/**************************************************************************
+Carousel-items
+***************************************************************************/
+.carousel-item {
+    height: 500px;
+}
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+
+
+
 nav { 
     grid-area:nav_area;
 }

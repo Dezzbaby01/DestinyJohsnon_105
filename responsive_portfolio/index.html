@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>MY PORTFOLIO</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/style.css">
+
     </head>
     <body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+        
         <div id="site_grid">
             <nav>
                 <h2>Destiny Johnson</h2>
@@ -70,6 +77,36 @@
 
             <section id="carousel_container"></section>
 
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/MattePaintingProject-DestinyJohnson.jpg" class="d-block w-100" alt="lady and her castle">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Portrait_Photography_Project_6008_DJohnson copy.jpg" class="d-block w-100" alt="Keep your cool">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="images/Dynamic_Portrait_Effects_DJohnson_103_V4 copy.jpg" class="d-block w-100" alt="painted man">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+
             <section id="gallery_container">
                 <h2>
                     Gallery 1 - Grid
@@ -86,70 +123,6 @@
                     <img src="images/coffee_L2.jpg" alt="coffee">
                     <img src="images/coffee_P3.jpg" alt="coffee">
                 </div>
-            
-            <h2>
-                Gallery 2 - Grid (cropped)
-            </h2>
-            <div id="gallery_2">
-                <img src="images/coffee_L1.jpg" alt="coffee">
-                <img src="images/coffee_P1.jpg" alt="coffee">
-                <img src="images/coffee_S3.jpg" alt="coffee">
-                <img src="images/coffee_L3.jpg" alt="coffee">
-                <img src="images/coffee_P4.jpg" alt="coffee">
-                <img src="images/coffee_S1.jpg" alt="coffee">
-                <img src="images/coffee_L4.jpg" alt="coffee">
-                <img src="images/coffee_S2.jpg" alt="coffee">
-                <img src="images/coffee_L2.jpg" alt="coffee">
-                <img src="images/coffee_P3.jpg" alt="coffee">
-            </div>
-        
-            <h2>
-                Gallery 3 - Grid (Flexbox Horizontal)
-            </h2>
-            <div id="gallery_3">
-                <img src="images/coffee_L1.jpg" alt="coffee">
-                <img src="images/coffee_P1.jpg" alt="coffee">
-                <img src="images/coffee_S3.jpg" alt="coffee">
-                <img src="images/coffee_L3.jpg" alt="coffee">
-                <img src="images/coffee_P4.jpg" alt="coffee">
-                <img src="images/coffee_S1.jpg" alt="coffee">
-                <img src="images/coffee_L4.jpg" alt="coffee">
-                <img src="images/coffee_S2.jpg" alt="coffee">
-                <img src="images/coffee_L2.jpg" alt="coffee">
-                <img src="images/coffee_P3.jpg" alt="coffee">
-            </div>
-         
-            <h2>
-                Gallery 4 - Grid (Flexbox Vertical)
-            </h2>
-            <div id="gallery_4">
-                <img src="images/coffee_L1.jpg" alt="coffee">
-                <img src="images/coffee_P1.jpg" alt="coffee">
-                <img src="images/coffee_S3.jpg" alt="coffee">
-                <img src="images/coffee_L3.jpg" alt="coffee">
-                <img src="images/coffee_P4.jpg" alt="coffee">
-                <img src="images/coffee_S1.jpg" alt="coffee">
-                <img src="images/coffee_L4.jpg" alt="coffee">
-                <img src="images/coffee_S2.jpg" alt="coffee">
-                <img src="images/coffee_L2.jpg" alt="coffee">
-                <img src="images/coffee_P3.jpg" alt="coffee">
-            </div>
-        
-            <h2>
-                Gallery 5 - CSS columns
-            </h2>
-            <div id="gallery_5">
-                <img src="images/coffee_L1.jpg" alt="coffee">
-                <img src="images/coffee_P1.jpg" alt="coffee">
-                <img src="images/coffee_S3.jpg" alt="coffee">
-                <img src="images/coffee_L3.jpg" alt="coffee">
-                <img src="images/coffee_P4.jpg" alt="coffee">
-                <img src="images/coffee_S1.jpg" alt="coffee">
-                <img src="images/coffee_L4.jpg" alt="coffee">
-                <img src="images/coffee_S2.jpg" alt="coffee">
-                <img src="images/coffee_L2.jpg" alt="coffee">
-                <img src="images/coffee_P3.jpg" alt="coffee">
-            </div>
         
             <h2>
                 Gallery 6 - My favorite
