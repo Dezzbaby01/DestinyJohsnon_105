@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>Forms_basic</title>
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <form> 
+
+                <div class="text_input">
+                    <label for="first_name_id">First Name :</label>
+                    <input
+                    required
+                    id="first_name_id"
+                    name="first_name"
+                    type="text"
+                    minlength="2"
+                    maxlength="20">
+                    <div class="text_input">
+                        <label for="middle_name_id">Middle Name:</label>
+                        <input type="text" id="middle_name_id" name="middle_name">
+                    </div>
+                    
+                </div>
+                <div class="text_input">
+                    <label for="last_name_id">Last Name:</label>
+                    <input type="text" id="last_name_id" name="last_name">
+                </div>
+               
+
+
+                <div>
+                    <label for="color_group_id">
+                        What is your favorite color group?
+                    </label>
+                    <select id="color_group_id" name="color_group">
+                        <option value="" disabled selected>Please choose</option>
+                        <option value="green">Green</option>
+                        <option value="pink">Pink</option>
+                        <option value="blue">Blue</option>
+                        <option value="purple">Purple</option>
+                        <option value="red">Red</option>
+                        <option value="black">Black</option>
+                    </select>
+
+
+
+            
+                <p>
+                    What is your favorite desert out of these 3?
+                </p>
+                
+                <div id="desert_radio">
+                    <input type="radio" id="pies_radio" name="deserts" value="pies" required>
+                    <label for="pies_radio">Pies</label>
+                </div>
+                <div>
+                    <input type="radio" id="cakes_radio" name="deserts" value="cakes" required>
+                    <label for="cakes_radio">Cakes</label>
+                </div>
+                <div>
+                    <input type="radio" id="Cookies" name="deserts" value="cookies" required>
+                    <label for="cookies_radio">Cookies</label>
+                </div>
+                
+                <p>How do you spend your day off?</p>
+                <div>
+                    <input type="checkbox" id="sleep_checkbox" name="sleep_1" value="sleep">
+                    <label for="sleep_checkbox">Sleep</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="videogames_checkbox" name="vehicle_2" value="videogames">
+                    <label for="videogames_checkbox">Video Games</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="cooking_checkbox" name="vehicle_3" value="cooking">
+                    <label for="cooking_checkbox">Cooking</label>
+                </div>
+
+                <div>
+                    <label for="date_id">When is your birthday?</label>
+                    <input type="date" id="date_id" name="birthday">
+                </div>
+            
+                <div id="buttons">
+                    <input type="submit" value="Submit everything">
+                </div>
+            
+        </form>
+    </body>
+</html>
