@@ -84,5 +84,8 @@ input[type=submit] {
     width: 13%;
 }
 
+input:invalid {
+    border: 2px solid red;
+}
 
 
