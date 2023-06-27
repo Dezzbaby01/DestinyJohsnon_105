@@ -1,0 +1,81 @@
+body{
+    background-color: #eeeeee;
+    font-family: sans-serif;
+    margin: 50px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-areas: ". header ."
+    ". form .";
+    text-align: left;
+}
+
+form div{
+    margin: 16px auto;
+}
+
+header{
+    grid-area:header;
+    text-align: center;
+    font-size: medium;
+    font-family: sans-serif;
+    
+}
+
+#services_id{
+    display: block;
+    padding: 10px;
+    padding-right: 220px;
+
+    
+}
+
+main{
+    grid-area: form;
+    background-color: white;
+}
+
+form{
+    border: .5px solid grey;
+    padding: 25px;
+    font-family: sans-serif;
+    
+    
+}
+input{
+    display: block;
+    text-align: left;
+    padding: 15px 0 15px 25px;
+    
+}
+
+
+
+#message_id{
+    display: block;
+    padding:  50px 142px;
+
+}
+
+
+p{
+font-size: 10px;
+font-family: sans-serif;
+text-align: center;
+padding: 50px;
+}
+
+
+input[type=submit] {
+    border:none;
+    border-radius: 3px;
+    padding: 12px;
+    background:rgb(34, 133, 233);
+    color: white;
+    margin: 15px;
+}
+
+
+
