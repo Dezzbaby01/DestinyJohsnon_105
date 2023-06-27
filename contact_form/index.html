@@ -19,23 +19,23 @@
             </header>
             <main>
                 <form action="https://getform.io/f/b7ad15e0-99ed-4736-b416-ea19c5360fe8" method="POST">
-                    
+
                     <div>
                         <label for="services_id"> What can we help you with?</label>
 
                         <select id="services_id" name="services_selection">
                         
                             <option id="defult_option" value="none" disabled selected>Select what we can help you with.</option>
-                        
-                        
-                             <option value="gardening">Gardening</option>
-                                
-                                
-                             <option value="coding">Coding
-                             </option>
-
-                            <option value="web dev">Web Development</option>
-
+                                 <option value="gardening">Gardening</option>
+                                 <option 
+                                 value="coding">Coding
+                                 </option>
+                                 <option 
+                                 value="web dev">Web    Development
+                                </option>
+                                 <option 
+                                 value="other">Other
+                                 </option> 
                         </select>
                     </div>
 
@@ -46,7 +46,10 @@
                         id="name_id"
                         name="name"
                         required 
-                        placeholder="Ex. John Smith">
+                        placeholder="Ex. John Smith"
+                        required
+                        minlength="2"
+                        maxlength="15">
                     </div>
 
                     <div>
@@ -67,7 +70,9 @@
                             name="message"
                             required
                             placeholder="I would like you to..."
-                        ></textarea>
+                            minlength="10"
+                            maxlength="500"
+                            ></textarea>
                     </div>
 
                     <div>
