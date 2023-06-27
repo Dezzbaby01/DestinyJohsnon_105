@@ -20,7 +20,7 @@
             <main>
                 <form>
                     <div>
-                        <lable id="services_id"> What can we help you with?</lable>
+                        <label for="services_id"> What can we help you with?</label>
 
                         <select id="services_id" name="services_selection">
                         
@@ -35,8 +35,6 @@
 
                             <option value="web dev">Web Development</option>
 
-                        
-                            </option>
                         </select>
                     </div>
 
@@ -67,11 +65,14 @@
                             id="message_id"
                             name="message"
                             required
-                            placeholder="I would like you to..."></textarea>
+                            placeholder="I would like you to..."
+                        ></textarea>
                     </div>
 
                     <div>
-                        <input type="submit" value="Send">
+                        <input 
+                        type="submit" 
+                        value="Send">
                     </div>
 
                 </form>

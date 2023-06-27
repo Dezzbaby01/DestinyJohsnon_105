@@ -1,7 +1,15 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #eeeeee;
     font-family: sans-serif;
     margin: 50px;
+    
 }
 
 #grid{
@@ -28,8 +36,7 @@ header{
     display: block;
     padding: 10px;
     padding-right: 220px;
-
-    
+    width: 100%;
 }
 
 main{
@@ -48,15 +55,15 @@ input{
     display: block;
     text-align: left;
     padding: 15px 0 15px 25px;
-    
+    width: 100%;
 }
 
 
 
 #message_id{
     display: block;
-    padding:  50px 142px;
-
+    padding:  15px 0 44px 25px;
+    width: 100%;
 }
 
 
@@ -74,7 +81,7 @@ input[type=submit] {
     padding: 12px;
     background:rgb(34, 133, 233);
     color: white;
-    margin: 15px;
+    width: 13%;
 }
 
 
