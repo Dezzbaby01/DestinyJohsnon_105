@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>facebook form</title>
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <header>
+            <img src="images/fb_logo.svg" alt="facebook fb_logo">
+        </header>
+        <main>
+            <div>
+                <h2>
+                    Create a new account
+                </h2>
+                <p>
+                    it's quick and easy.
+                </p>
+             </div>
+             <hr>
+             <form>
+                <div>
+                    <label for="firstname_id"></label>
+                    <input 
+                    type="text" 
+                    id="firstname_id"
+                    name="firstname"
+                    required 
+                    placeholder="First Name"
+                    required
+                    minlength="2"
+                    maxlength="15">
+                </div>
+
+                <div>
+                    <label for="lastname_id"></label>
+                    <input 
+                    type="text" 
+                    id="name_id"
+                    name="name"
+                    required 
+                    placeholder="Last Name"
+                    required
+                    minlength="2"
+                    maxlength="15">
+                </div>
+
+                <div>
+                    <label for="email"></label>
+                    <input
+                    type="email"
+                    id="email_id"
+                    name="email"
+                    required 
+                    placeholder="Mobile Number or email">
+                </div>
+
+                <div>
+                    <label for="password"></label>
+                    <input
+                    type="password"
+                    id="password_id"
+                    name="password"
+                    placeholder="New password">
+                </div>
+
+                <div>
+                    <label for="date_id">Birthday</label>
+                    <input type="date" id="date_id" name="birthday">
+                </div>
+                <p>
+                    Gender
+                </p>
+                <div id="male_radio">
+                    <input type="radio" id="male_radio" name="gender" value="Male" required>
+                    <label for="gender_radio">Male</label>
+                </div>
+
+                <div id="gender_radio">
+                    <input type="radio" id="female_radio" name="gender" value="female" required>
+                    <label for="gender_radio">Female</label>
+                </div>
+                <div id="custom_radio">
+                    <input type="radio" id="custom_radio" name="gender" value="custom" required>
+                    <label for="gender_radio">Custom</label>
+                    <p>
+                        People who use our service may uploaded your contact infromation to facebook.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="#learn more">Learn more</a>
+                        </li>
+                    </ul>
+                    <p>
+                        By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. you may recieve SMS Notifications from us and can opt put any time.
+                    </p>
+                <div id="buttons">
+                    <input type="submit" value="Sign up">
+                </div>
+
+                <ul>
+                    <li id="account">
+                        <a href="account">Already have an account?</a>
+                    </li>
+                </ul>
+                
+             </form>
+         </main>
+
+    </body>
+</html>

@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin: 0 auto;
+    box-shadow:1px 1px 14px grey ;
+}
+
+body{
+    background-color: #eeeeee;
+    font-family: sans-serif;
+    margin: 25px ;
+    text-align: center;
+    
+}
+
+header{
+    font-size: medium;
+    font-family:sans-serif;
+    text-align: center;
+}
+header img{
+    width: 350px;
+}
+p{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+ul{
+    font-size: 10px;
+}
+#account{
+    font-size:medium;
+}
+
+#grid{
+    border: 1px solid;
+}
+
+input[type=date] {
+    font-size: 15px;
+    padding: 14px;
+}
+
+#firstname_id{
+    padding: 10px;
+    margin: 4px;
+}
+
+#name_id{
+    padding: 10px;
+    margin: 4px;
+}
+
+#email_id{
+    padding: 10px ;
+    margin: 4px;
+}
+#password_id{
+padding: 10px;
+margin: 4px;
+
+}
+#date_id{
+    padding: 3px;
+    margin: 4px;
+}
+
+
+#male_radio{
+    display: inline;
+    margin: 5px;
+}
+#female_radio{
+    display: inline;
+    margin: 5px;
+}
+#custom{
+    display: inline;
+    margin: 8px;
+}
+
+input[type=submit]{
+    background-color: green;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+}
