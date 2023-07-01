@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#gallery_container img{
+    width:50px;
+    display: inline;
+    flex-direction: row;
+    align-items: baseline;
+}
+#hero_1{
+    background-image: url("../images/hulu-bg.jpeg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 300px;
+        position: relative;
+         display: flex;    
+    }
+nav img{
+    width: 40px;
+    padding: 10px;
+}
+
+input{
+    background-color: rgb(119, 242, 106);
+    border: 0px;
+    border-radius: 3px;
+    width: 300px;
+    display: flex ;
+    justify-content: center;
+    
+}
+
+section.card{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+section.card img{
+    display: inline-flex;
+    width: 100px;
+    align-items: center;
+}
+
+
+
+
+    
