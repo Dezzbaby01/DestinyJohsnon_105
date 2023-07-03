@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #040405;
+}
+
+#hero{
+    background-image: url(../images/hulu-bg\ copy.jpeg);
+    background-size: cover;
+}
+nav{
+    padding: 24px 36px;
+    background: linear-gradient(to bottom,#000000DD, #000000);
+}
+nav img{
+    width:60px;
+}
