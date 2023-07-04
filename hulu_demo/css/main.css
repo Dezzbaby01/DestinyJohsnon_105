@@ -70,6 +70,7 @@ h5{
     width: 670px;
     text-align: center;
     transition: opacity 0.5s;
+    align-items: center;
 }
 .btn-link:hover{
     opacity: 0.5s;
