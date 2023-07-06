@@ -42,9 +42,7 @@ nav a:hover{
 #hero_content{
     display: flex;
     flex-direction: column;
-    text-align:justify center;
-    width: 200px;
-    margin: 0 250px;
+    text-align:center;
     flex: 1;
 }
 
@@ -57,6 +55,12 @@ h5{
     text-align: center;
     margin-bottom: 25px;
 }
+
+#hero_content, p, img{
+    align-items: center;
+
+}
+
 #her_content img {
     margin :25px 0;
 }
