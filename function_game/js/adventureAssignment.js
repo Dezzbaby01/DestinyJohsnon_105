@@ -15,9 +15,10 @@
 
 // This function will run when the user clicks the "Move Left" button,
 // or presses the 'a' or left arrow key
-function pressMoveLeftButton( ) {
+function pressMoveLeftButton() {
     // TODO: execute the correct function from adventureLibrary.js below!
-
+    const mleft = document.querySelector('#left');
+    mleft.onclick = moveLeft;
 }
 
 // This function will run when the user clicks the "Move Right" button,
